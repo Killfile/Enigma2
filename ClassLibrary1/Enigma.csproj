@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E78CA18-6972-41F9-BA8E-A184C69D049E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EnigmaEmulator</RootNamespace>
+    <AssemblyName>EnigmaEmulator</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Factories\EnigmaFactory.cs" />
+    <Compile Include="Factories\Exceptions\InvalidRotorException.cs" />
+    <Compile Include="Factories\Exceptions\InvalidReflectorException.cs" />
+    <Compile Include="Factories\Exceptions\NonUniqueRotorException.cs" />
+    <Compile Include="Factories\RotorFactory.cs" />
+    <Compile Include="Machines\EnigmaM4.cs" />
+    <Compile Include="Machines\NestedEnigmaMachine.cs" />
+    <Compile Include="Machines\EnigmaI.cs" />
+    <Compile Include="Machines\IEnigmaMachine.cs" />
+    <Compile Include="Machines\ISteckeredEnigma.cs" />
+    <Compile Include="Plugboard\Plugboard.cs" />
+    <Compile Include="Plugboard\PlugboardChainingException.cs" />
+    <Compile Include="Procedure\CryptProcedure.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RotorAssembly\IRotorAssembly.cs" />
+    <Compile Include="RotorAssembly\NestedRotorAssembly.cs" />
+    <Compile Include="RotorAssembly\RotorAssemblyConfigurationException.cs" />
+    <Compile Include="RotorAssembly\Rotors\Reflector.cs" />
+    <Compile Include="RotorAssembly\Rotors\Rotor.cs" />
+    <Compile Include="RotorAssembly\Rotors\StationaryRotor.cs" />
+    <Compile Include="RotorAssembly\Rotors\NestedRotor.cs" />
+    <Compile Include="RotorAssembly\Rotors\RotorWiring.cs" />
+    <Compile Include="RotorAssembly\ThreeRotorAssembly.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Machines\Exceptions\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

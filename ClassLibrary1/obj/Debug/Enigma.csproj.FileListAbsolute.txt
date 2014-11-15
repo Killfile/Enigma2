@@ -1,0 +1,15 @@
+c:\Enigma\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+c:\Enigma\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+c:\Enigma\ClassLibrary1\ClassLibrary1\obj\Debug\Enigma.csprojResolveAssemblyReference.cache
+c:\Enigma\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+c:\Enigma\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+E:\Dropbox\Dropbox\Code\Enigma\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+E:\Dropbox\Dropbox\Code\Enigma\ClassLibrary1\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+E:\Dropbox\Dropbox\Code\Enigma\ClassLibrary1\ClassLibrary1\obj\Debug\Enigma.csprojResolveAssemblyReference.cache
+E:\Dropbox\Dropbox\Code\Enigma\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+E:\Dropbox\Dropbox\Code\Enigma\ClassLibrary1\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+E:\Dropbox\Code\Enigma\ClassLibrary1\ClassLibrary1\bin\Debug\EnigmaEmulator.dll
+E:\Dropbox\Code\Enigma\ClassLibrary1\ClassLibrary1\bin\Debug\EnigmaEmulator.pdb
+E:\Dropbox\Code\Enigma\ClassLibrary1\ClassLibrary1\obj\Debug\EnigmaEmulator.dll
+E:\Dropbox\Code\Enigma\ClassLibrary1\ClassLibrary1\obj\Debug\EnigmaEmulator.pdb
+E:\Dropbox\Code\Enigma\ClassLibrary1\ClassLibrary1\obj\Debug\Enigma.csprojResolveAssemblyReference.cache
